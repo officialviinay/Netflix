@@ -242,7 +242,14 @@ main .hero .col button{
 
 .intro .row .col img{
     width: 100%;
+    mix-blend-mode: screen;
 }
+
+.intro .row .col video{
+    object-fit: cover;
+}
+
+
 
 /*  accordion */
 
