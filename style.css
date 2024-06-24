@@ -241,12 +241,16 @@ main .hero .col button{
 }
 
 .intro .row .col img{
-    width: 100%;
-    mix-blend-mode: screen;
+    width: 100%;    
 }
 
 .intro .row .col video{
     object-fit: cover;
+    position: absolute;
+    left: 54%;
+    height: 50%;
+    width: 30%;
+    z-index: -1;
 }
 
 
