@@ -238,20 +238,59 @@ main .hero .col button{
 
 .intro .row .col{
     width: 50%;
+    z-index: 1;
 }
 
 .intro .row .col img{
     width: 100%;    
 }
 
-.intro .row .col video{
+/* .intro .row .col video{
     object-fit: cover;
     position: absolute;
-    left: 54%;
-    height: 50%;
-    width: 30%;
+    left: 57%;
+    max-width: 33%;
+    max-height: 61%;
+    z-index: -1;
+} */
+
+.video1 {
+    width: 73%;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 13%;
     z-index: -1;
 }
+
+.image1 {
+    position: relative;
+    z-index:1;
+}
+
+.c1 {
+    position: relative;
+    z-index:1;
+}
+
+.video2 {
+    width: 62%;
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 18%;
+    z-index: -1;
+}
+
+.image2 {
+    position: relative;
+    z-index:1;
+}
+
+.c2 {
+    position: relative;
+    z-index:1;
+}
+
+
 
 
 
